@@ -10,6 +10,7 @@ int main() {
     printf("E: %f\n", E);
     return 0;
 }
+
 /* 
 La diferencia fundamental es que utilizando la directiva de 
 compilador no se necesita reservar memoria para almacenar la constante.
