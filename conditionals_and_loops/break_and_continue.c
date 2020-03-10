@@ -22,4 +22,8 @@ int main() {
         printf("Count = %d\n", num);
     }
     return 0;
+    /*
+    Although the break and continue statements can be convenient, 
+    they should not be a substitute for a better algorithm.
+    */
 }
