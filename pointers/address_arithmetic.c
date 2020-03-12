@@ -15,4 +15,10 @@ int main() {
     ptr -= 2;
     printf("%d  %x\n", *ptr, ptr);  /* 33 */ 
     return 0;
+    /* When a pointer is incremented, the memory address increases by the number of bytes being pointed to. 
+    In the program above, the pointer increases by 4 
+    when the increment operator is used (ptr++)
+    because the pointer is pointing to an int.
+    You can also use the ==, <, and > operators to compare pointer addresses.
+    */
 }
