@@ -6,7 +6,7 @@ int main() {
     int *a; // Declare a pointer to store the array returned
     a = get_evens();
     for (int i = 0; i < 5; i++) {
-        printf("%d\n", a[i]);
+        printf("%d\n", a[i]); // a[i] is the same as *(a + i).
     }
     return 0;
 }
